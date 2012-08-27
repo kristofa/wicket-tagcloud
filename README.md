@@ -16,5 +16,7 @@ and import the project in Eclipse.
 There is an example application included: src/test/java/com/github/kristofa/wickettagcloud/example/Start.java
 
 If you run the example app as a Java app it will start a Jetty server. Next you can access the example app by opening your
-browser at http://localhost:8081/ .  The code that builds up the page with the tag cloud is in src/test/java/com/github/kristofa/wickettagcloud/example/HomePage.java
+browser at http://localhost:8081/ .  
+
+The code that builds up the page with the tag cloud is in src/test/java/com/github/kristofa/wickettagcloud/example/HomePage.java
 
