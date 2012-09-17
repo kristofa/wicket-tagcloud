@@ -52,7 +52,7 @@ public class HomePage extends WebPage {
                 new TagCloudTagImpl("facebook", "http://www.facebook.com", 20), new TagCloudTagImpl("github",
                     "http://www.github.com", 4), new TagCloudTagImpl("twitter", "http://www.twitter.com", 16),
                 new TagCloudTagImpl("flickr", "http://www.flickr.com", 14), new TagCloudTagImpl("linkedin",
-                    "http:/www.linkedin.com", 12), new TagCloudTagImpl("foursquare", "http://www.foursquare.com", 6),
+                    "http://www.linkedin.com", 12), new TagCloudTagImpl("foursquare", "http://www.foursquare.com", 6),
                 new TagCloudTagImpl("stackoverflow", "http://www.stackoverflow.com", 6), new TagCloudTagImpl("delicious",
                     "http://www.delicious.com", 8));
         }
