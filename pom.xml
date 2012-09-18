@@ -39,7 +39,7 @@
   </properties>
 
   <dependencies>
-    <dependency>
+        <dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.7</version>
@@ -51,24 +51,17 @@
   			<version>1.8.5</version>
 			<scope>test</scope>
 		</dependency> 
-		<!-- Jetty is only needed to run the example app which is in src/test -->
 		<dependency>
-			<groupId>org.mortbay.jetty</groupId>
-			<artifactId>jetty</artifactId>
-			<version>6.1.4</version>
-			<scope>test</scope>
-		</dependency>
-    <dependency>
-		<groupId>org.apache.wicket</groupId>
-		<artifactId>wicket-core</artifactId>
-		<version>6.0.0</version>
-	</dependency>
-	<dependency>
-    	<groupId>org.slf4j</groupId>
-        <artifactId>slf4j-log4j12</artifactId>
-        <version>1.6.4</version>
-        <scope>runtime</scope>
-    </dependency>
+		  <groupId>org.apache.wicket</groupId>
+		  <artifactId>wicket-core</artifactId>
+		  <version>6.0.0</version>
+	   </dependency>
+	   <dependency>
+    	   <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>1.6.4</version>
+            <scope>runtime</scope>
+        </dependency>
   </dependencies>
   <build>
 		<resources>
