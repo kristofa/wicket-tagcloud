@@ -8,16 +8,17 @@ The tag cloud component is based on an implementation by Uwe Schaefer, see [here
 I copied and changed the original component in a way that it is compatible with Wicket 6.x (and 1.5.x) and I also changed the way how the 
 link for a tag is handled.
 
-The project is setup using Maven so you can do
+As of now a snapshot version is available from the OSS Sonatype snapshot repo: [https://oss.sonatype.org/content/repositories/snapshots/](https://oss.sonatype.org/content/repositories/snapshots/)
+No release version are available yet.
 
-    mvn eclipse:eclipse
+Once you configured the snapshot repository you can import the component by updating your pom.xml:
 
-and import the project in Eclipse.
+<dependency>
+        <groupId>com.github.kristofa</groupId>
+        <artifactId>wickettagcloud</artifactId>
+        <version>1.0-SNAPSHOT</version>
+</dependency>
 
-There is an example application included: src/test/java/com/github/kristofa/wickettagcloud/example/Start.java
+There is an example application available [here](https://github.com/kristofa/wicket-tagcloud-example).
 
-If you run the example app as a Java app it will start a Jetty server. Next you can access the example app by opening your
-browser at http://localhost:8081/ .  
-
-The code that builds up the page with the tag cloud is in src/test/java/com/github/kristofa/wickettagcloud/example/HomePage.java
 
