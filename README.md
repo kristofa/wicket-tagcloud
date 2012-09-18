@@ -13,11 +13,11 @@ No release version are available yet.
 
 Once you configured the snapshot repository you can import the component by updating your pom.xml:
 
-<dependency>
+    <dependency>
         <groupId>com.github.kristofa</groupId>
         <artifactId>wickettagcloud</artifactId>
         <version>1.0-SNAPSHOT</version>
-</dependency>
+    </dependency>
 
 There is an example application available [here](https://github.com/kristofa/wicket-tagcloud-example).
 
