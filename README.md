@@ -13,7 +13,7 @@ Version 1.0 of the component is available in Maven Central so you can use it in 
     <dependency>
         <groupId>com.github.kristofa</groupId>
         <artifactId>wickettagcloud</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </dependency>
 
 There is an example application available [here](https://github.com/kristofa/wicket-tagcloud-example).
