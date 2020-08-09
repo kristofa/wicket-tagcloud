@@ -1,6 +1,8 @@
 wicket-tagcloud
 ===============
 
+**This repo is archived and not maintained anymore. It is still available in read-only mode and can be forked.**
+
 Tag cloud component for [Wicket](http://wicket.apache.org).
 Released under MIT license, see LICENSE for details.
 
